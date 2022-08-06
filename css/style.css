@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;400;600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafcff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    width: 100px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.list-items-active{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+}
+.list-items{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.register-btn{
+    background: transparent;
+    border: 2px solid #23C4ED;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    color: #23C4ED;
+}
+
+/* sections styling */
+.row{
+    width: 100vw;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.content{
+    width: 50%;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.heading{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.content p{
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.btn{
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #1B98F5;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #c7c9ca;
+    font-family: "Poppins";
+}
+.image-div{
+    width: 50%;
+}
+.section-img{
+    width: 400px;
+    margin-left: 100px;
+    background: transparent;
+}
+.second-row{
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.third-row{
+    margin-top: 10%;
+}
+.third-row .content{
+    margin-top: 50px;
+}
+.fourth-row{
+    max-width: 100%;
+    align-items: center;
+    font-family: "Poppins";
+    margin: 50px 50px;
+}
+.fourth-row .heading{
+    font-size: 30px;
+}
+.fourth-row p{
+    width: 70%;
+    font-size: 14px;
+    margin-left: 100px;
+}
+.services_main{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.service{
+    margin-left: 10px;
+    font-family: "Poppins",sans-serif;
+    padding: 20px;
+}
+.service img{
+    width: 50px;
+}
+.description h1{
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.description p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Pricing section style */
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: #1B98F5;
+    color: #ffffff;
+    margin: 50px 0;
+    font-family: "Poppins",sans-serif;
+}
+.container-heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.pricing{
+    width: 100%;
+    max-width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #242B2E;
+}
+.box-1{
+    max-width: 33%;
+    height: 500px;
+    background-color: #fafcff;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.box-heading{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.box-meta{
+    font-size: 14px;
+    color: #86888a;
+    margin-bottom: 30px;
+}
+.features{
+    font-size: 14px;
+    line-height: 2.8;
+    font-weight: 600;
+}
+.features p{
+    text-transform: capitalize;
+}
+.fa-regular{
+    margin-right: 10px;
+    color: #38CC77;
+}
+.price{
+    margin-top: 30px;
+   text-align: center;
+}
+.price span{
+    color: #aeb0b1;
+}
+.price p{
+    margin-top: 5px;
+    color: #aeb0b1;
+    font-size: 12px;
+}
+.price-btn{
+    background: transparent;
+    border: 2px solid #23C4ED;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #23C4ED;
+}
+
+/* about us section */
+
+.about-us{
+    font-family: "Poppins",sans-serif;
+}
+.about-content{
+    width: 100vw;
+    max-width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.about-heading{
+    font-size: 40px;
+    color: #242B2E;
+}
+.about-text{
+    font-size: 14px;
+    line-height: 1.8;
+    color: #86888a;
+}
+
+/* review section styling */
+
+.reviews-container{
+    width: 100vw;
+    font-family: "Poppins",sans-serif;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 20px auto;
+}
+.review-row_1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.review{
+   background-color: #ffffff;
+   width: 45%;
+   padding: 20px;
+   box-shadow: 0 0 5px 0 #fafcff;
+}
+.review p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.person-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.person-img{
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.person-designation{
+    color: #86888a;
+}
+
+/* banner styling */
+.banner{
+    width: 100vw;
+    background-color: #1B98F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin: 50px 0;
+    font-family: "Poppins",sans-serif;
+}
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+.left{
+    width: 45%;
+}
+.left h1{
+    font-size: 40px;
+}
+.left p{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.right{
+    width: 45%;
+    text-align: center;
+}
+.banner-btn{
+    background: transparent;
+    padding: 10px 20px;
+    border: 2px solid #fafcff;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* footer styling */
+
+.footer{
+    width: 100vw;
+    font-family: "Poppins",sans-serif;
+    margin-top: 100px;
+}
+.footer_wrapper{
+    max-width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes{
+    position: relative;
+    width: 18%;
+    list-style: none;
+}
+.boxes h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.logo-img{
+    width: 80px;
+}
+.boxes p{
+    font-size: 12px;
+    line-height: 1.8;
+    margin-right: 10px;
+}
+.boxes li{
+    font-size: 12px;
+    line-height: 1.8;
+}
+.social-icons{
+    position: relative;
+    width: 200px;
+    right: 1.5rem;
+}
