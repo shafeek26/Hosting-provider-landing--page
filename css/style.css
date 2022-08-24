@@ -438,14 +438,12 @@ body{
         margin: 0 auto;
     }
     .container{
+        height: 1200px;
         display: flex;
         flex-direction: column;
     }
     .left h1{
         font-size: 20px;
-    }
-    .footer{
-        /* height: 500px; */
     }
     .boxes h1{
         font-size: 16px;
