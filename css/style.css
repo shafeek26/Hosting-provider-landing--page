@@ -34,6 +34,7 @@ body{
     margin-left: 40px;
 }
 .register-btn{
+    white-space: nowrap;
     background: transparent;
     border: 2px solid #23C4ED;
     border-radius: 5px;
@@ -357,4 +358,99 @@ body{
     position: relative;
     width: 200px;
     right: 1.5rem;
+}
+.fa-bars{
+    display: none;
+    font-size: 30px;
+    margin-right:30px;
+}
+
+/* mediaquerries goes here */
+
+@media screen and (max-width:980px) {
+    .list{
+        display: none;
+    }
+    .register-btn{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .container-heading{
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .pricing{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-1{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }  
+    .left h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .first-row{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .second-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .third-row{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .third-row .image-div{
+        margin-right: 300px;
+    }
+    .fourth-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-row .content{
+        margin-right: 150px;
+    }
+    .fourth-row .text{
+        margin-right: 150px;
+        text-align: center;
+    }
+    .image-div{
+        margin-right: 250px;
+    }
+    .content{
+        width: 90vw;
+        text-align: center;
+    }
+    .services{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left h1{
+        font-size: 20px;
+    }
+    .footer{
+        /* height: 500px; */
+    }
+    .boxes h1{
+        font-size: 16px;
+    }
+    .social-icons{
+        font-size: 12px;
+    }
 }
